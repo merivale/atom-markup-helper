@@ -1,7 +1,7 @@
 {
   "name": "atom-markup-helper",
   "main": "./lib/atom-markup-helper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adds a few HTML markup shortcuts to Atom",
   "repository": {
     "type": "git",
