@@ -1,0 +1,33 @@
+{
+  "context-menu": {
+    "atom-text-editor": []
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Markup Helper",
+          "submenu": [
+            {
+              "label": "Bold",
+              "command": "atom-markup-helper:bold"
+            },
+            {
+              "label": "Emphasis",
+              "command": "atom-markup-helper:emphasis"
+            },
+            {
+              "label": "Italics",
+              "command": "atom-markup-helper:italics"
+            },
+            {
+              "label": "Underlined",
+              "command": "atom-markup-helper:underlined"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

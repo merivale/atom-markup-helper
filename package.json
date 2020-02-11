@@ -1,0 +1,22 @@
+{
+  "name": "atom-markup-helper",
+  "main": "./lib/atom-markup-helper",
+  "version": "0.0.0",
+  "description": "Adds a few HTML markup shortcuts to Atom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/merivale/atom-markup-helper"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "activationCommands": {
+    "atom-workspace": [
+      "atom-markup-helper:bold",
+      "atom-markup-helper:emphasis",
+      "atom-markup-helper:italics",
+      "atom-markup-helper:underlined"
+    ]
+  }
+}
