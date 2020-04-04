@@ -1,8 +1,8 @@
 {
   "name": "atom-markup-helper",
   "main": "./lib/atom-markup-helper",
-  "version": "0.1.0",
-  "description": "Adds a few HTML markup shortcuts to Atom",
+  "version": "1.0.0",
+  "description": "Markup keyboard shortcuts for Atom (for HTML, Markdown, and Markit)",
   "repository": {
     "type": "git",
     "url": "https://github.com/merivale/atom-markup-helper"
@@ -13,10 +13,16 @@
   },
   "activationCommands": {
     "atom-workspace": [
-      "atom-markup-helper:bold",
+      "atom-markup-helper:strong",
       "atom-markup-helper:emphasis",
+      "atom-markup-helper:bold",
       "atom-markup-helper:italics",
-      "atom-markup-helper:underlined"
+      "atom-markup-helper:underlined",
+      "atom-markup-helper:aside",
+      "atom-markup-helper:deleted",
+      "atom-markup-helper:inserted",
+      "atom-markup-helper:superscript",
+      "atom-markup-helper:subscript"
     ]
   }
 }

@@ -1,8 +1,12 @@
 {
   "atom-workspace": {
-    "ctrl-alt-b": "atom-markup-helper:bold",
+    "ctrl-alt-b": "atom-markup-helper:strong",
     "ctrl-alt-m": "atom-markup-helper:emphasis",
-    "ctrl-alt-i": "atom-markup-helper:italics",
-    "ctrl-alt-u": "atom-markup-helper:underlined"
+    "ctrl-alt-n": "atom-markup-helper:bold",
+    "ctrl-alt-f": "atom-markup-helper:italics",
+    "ctrl-alt-k": "atom-markup-helper:underlined",
+    "ctrl-alt-l": "atom-markup-helper:aside",
+    "ctrl-alt-d": "atom-markup-helper:deleted",
+    "ctrl-alt-s": "atom-markup-helper:inserted"
   }
 }

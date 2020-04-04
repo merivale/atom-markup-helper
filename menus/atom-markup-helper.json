@@ -10,12 +10,16 @@
           "label": "Markup Helper",
           "submenu": [
             {
-              "label": "Bold",
-              "command": "atom-markup-helper:bold"
+              "label": "Strong",
+              "command": "atom-markup-helper:strong"
             },
             {
               "label": "Emphasis",
               "command": "atom-markup-helper:emphasis"
+            },
+            {
+              "label": "Bold",
+              "command": "atom-markup-helper:bold"
             },
             {
               "label": "Italics",
@@ -24,6 +28,18 @@
             {
               "label": "Underlined",
               "command": "atom-markup-helper:underlined"
+            },
+            {
+              "label": "Aside",
+              "command": "atom-markup-helper:aside"
+            },
+            {
+              "label": "Deleted",
+              "command": "atom-markup-helper:deleted"
+            },
+            {
+              "label": "Inserted",
+              "command": "atom-markup-helper:inserted"
             }
           ]
         }
