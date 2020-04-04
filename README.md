@@ -1,10 +1,18 @@
 # Atom Markup Helper
 
-This very simple package adds a few keyboard shortcuts for marking up HTML text as bold, emphasized, italic, or underlined.
+This simple package adds keyboard shortcuts for marking up text. Works for HTML,
+Markdown, and Markit. Markit support requires the separate
+[language-markit](https://atom.io/packages/language-markit) package.
 
 ## Usage
 
-- ctrl-alt-b: surround the currently highlighted text in `<b>...</b>` tags
-- ctrl-alt-m: surround the currently highlighted text in `<em>...</em>` tags
-- ctrl-alt-i: surround the currently highlighted text in `<i>...</i>` tags
-- ctrl-alt-u: surround the currently highlighted text in `<u>...</u>` tags
+| Shortcut     | HTML                   | Markdown  | Markit      |
+| ------------ | ---------------------- | --------- | ----------- |
+| `ctrl-alt-b` | `<strong>...</strong>` | `*...*`   | `*...*`     |
+| `ctrl-alt-m` | `<em>...</em>`         | `_..._`   | `_..._`     |
+| `ctrl-alt-n` | `<b>...</b>`           | `**...**` | `=...=`     |
+| `ctrl-alt-f` | `<i>...</i>`           | `__...__` | `$...$`     |
+| `ctrl-alt-k` | `<u>...</u>`           |           | `^...^`     |
+| `ctrl-alt-l` | `<aside>...</aside>`   |           | `#...#`     |
+| `ctrl-alt-d` | `<del>...</del>`       | `~~...~~` | `{--...--}` |
+| `ctrl-alt-s` | `<ins>...</ins>`       |           | `{++...++}` |
